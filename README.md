@@ -11,9 +11,11 @@
 
 一：在Application的onCreate()中可调用：
 
+
 @Override
 public void onCreate() {
-    super.onCreate();
+<br>
+    super.onCreate();
 
     ActivityManager.init(false); //false为不开启打印
     //以下为可选注册形式
@@ -25,10 +27,11 @@ public void onCreate() {
 }
 
 二：其他地方可调用:
-{
-     ActivityManager.get().getActivityLifeCycle().getCurrentActivity();//获取当前应用最顶activity
-     ActivityManager.get().getActivityLifeCycle();//获取ActivityLifeCycle对象
-}
+<br>
+{<br>
+    ActivityManager.get().getActivityLifeCycle().getCurrentActivity();//获取当前应用最顶activity
+    ActivityManager.get().getActivityLifeCycle();//获取ActivityLifeCycle对象
+<br>}
 
 另：
 //ViewHelper类为辅助类，可供获取当前activity的所有view、activity内模拟点击；
