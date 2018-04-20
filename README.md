@@ -11,7 +11,7 @@
 
 一：在Application的onCreate()中可调用：
 
-
+`
 @Override
 public void onCreate() {
 <br>
@@ -25,6 +25,7 @@ public void onCreate() {
     1.ActivityManager.get().registerActivityLifecycle(this);
     2.ActivityManager.get().hook();
 }
+`
 
 二：其他地方可调用:
 <br>
