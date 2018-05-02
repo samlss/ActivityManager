@@ -5,6 +5,8 @@
 
 <br>
 
+**如果对你开发起到帮助，请star一下；**<br>
+
 用两种方法注册应用内Activity生命监听
 
 主类为ActivityManager类
